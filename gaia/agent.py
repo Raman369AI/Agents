@@ -28,9 +28,6 @@ url = 'https://agents-course-unit4-scoring.hf.space/questions'
 headers = {'accept': 'application/json'}
 response = requests.get(url, headers=headers)
 
-APP_NAME="weather_sentiment_agent"
-USER_ID="user1234"
-SESSION_ID="1234"
 # class responses_api(BaseAgent):
 #     async def _run_async_impl(self, ctx: InvocationContext)-> AsyncGenerator[Event, None]:
 #         # This method is called when the agent is run
